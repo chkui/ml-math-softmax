@@ -1,5 +1,6 @@
 # ml-math-softmax
-softmax计算方法说明
+## 来源
+本代码来源于https://www.chkui.com/article/tensorflow/math_in_machine_learning_softmax。
 ## Install
 ### virtualenv
 It is recommended to install project inside a virtualenv
