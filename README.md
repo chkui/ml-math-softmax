@@ -1,6 +1,6 @@
 # ml-math-softmax
 ## 来源
-本代码来源于https://www.chkui.com/article/tensorflow/math_in_machine_learning_softmax。
+代码来源于https://www.chkui.com/article/tensorflow/math_in_machine_learning_softmax
 ## Install
 ### virtualenv
 It is recommended to install project inside a virtualenv
@@ -17,7 +17,7 @@ $ pip3 install -r requirements.txt
 ```
 安装引入的包。
 
-### 库结构说明
+## 库结构说明
 `sample/matplot`是softmax交叉熵算法演示。
 
 `sample/softmax_compute`展现了softmax的一个基本的运算过程。
