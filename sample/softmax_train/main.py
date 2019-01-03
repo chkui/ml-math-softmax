@@ -11,6 +11,7 @@ def handle(count, loss):
     counts.append(count)
     losses.append(loss)
 
+
 if __name__ == '__main__':
     data = RandomData(500, 20, 50)
     features, labels = data.establish_data()
