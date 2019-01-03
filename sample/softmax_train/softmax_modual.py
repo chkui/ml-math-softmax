@@ -1,7 +1,4 @@
-import os
 import numpy as np
-import tempfile
-
 
 class Softmax:
     def __init__(self, features, labels):
@@ -39,7 +36,6 @@ class Softmax:
         训练
         :param handle: 单轮训练的回调，用于输出各项数据 (count, loss, )
         :param repeat: 重复的轮次,每轮会执行一次存储 2000
-        :param save_point: 多少次进行物理存储，设定为0时不存储，默认200
         :param step: 优化器步近量
         :return:
         """
